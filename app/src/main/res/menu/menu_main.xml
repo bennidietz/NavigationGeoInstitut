@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="http.req.bd.navigationgeoinstitut.MainActivity">
+    <item
+        android:id="@+id/informationen_zur_app"
+        android:orderInCategory="100"
+        android:title="@string/informationen_zur_app"
+        app:showAsAction="never" />
+</menu>
