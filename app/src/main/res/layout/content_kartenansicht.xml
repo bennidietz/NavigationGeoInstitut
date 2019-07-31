@@ -5,9 +5,60 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
+    android:orientation="vertical"
     android:background="@color/colorPrimaryDark"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Kartenansicht"
     tools:showIn="@layout/activity_kartenansicht">
+
+    <ImageView
+        android:id="@+id/grundriss_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="361dp"
+        android:scaleType="fitStart"
+        android:visibility="gone"
+        app:srcCompat="@drawable/grundriss1og" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/zu_etage_eg"
+            android:layout_height="wrap_content"
+            android:text="@string/eg" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="@string/_1_og"
+            android:id="@+id/zu_etage_1og"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="@string/_2_og"
+            android:id="@+id/zu_etage_2og"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="@string/_3_og"
+            android:id="@+id/zu_etage_3og"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 </LinearLayout>

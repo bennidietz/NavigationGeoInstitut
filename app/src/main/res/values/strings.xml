@@ -2,4 +2,10 @@
     <string name="app_name">Navigation Geo Institut</string>
     <string name="informationen_zur_app">Informationen zur App</string>
     <string name="title_activity_kartenansicht">Kartenansicht</string>
+    <string name="eg">EG</string>
+    <string name="_1_og">1. OG</string>
+    <string name="_2_og">2. OG</string>
+    <string name="_3_og">3. OG</string>
+    <string name="_4_og">4. OG</string>
+    <string name="_5_og">5. OG</string>
 </resources>
